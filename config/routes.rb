@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+ 
+  devise_for :users
 root "pages#home" # creates root_path
 get "about" => "pages#about" #creates about_path
 get "random" => "pages#random" #creates random_path

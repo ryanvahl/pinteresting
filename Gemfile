@@ -23,9 +23,10 @@ gem 'bootstrap-sass'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
+gem 'devise', '~> 3.5.1'
 group :development, :test do 
 	gem 'sqlite3'
-	# Use sqlite3 as the database for Active Record
+	# Use sqlite3 agit the database for Active Record
 end
  group :production do
  	gem 'pg'
