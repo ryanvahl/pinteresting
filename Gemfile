@@ -24,6 +24,7 @@ gem 'bootstrap-sass'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'devise', '~> 3.5.1'
+gem 'paperclip', github: 'thoughtbot/paperclip'
 group :development, :test do 
 	gem 'sqlite3'
 	# Use sqlite3 agit the database for Active Record
