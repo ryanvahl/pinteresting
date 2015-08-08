@@ -28,6 +28,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'devise', '~> 3.5.1'
 gem 'paperclip', github: 'thoughtbot/paperclip'
 gem 'masonry-rails', '~> 0.2.0'
+gem 'will_paginate', '~> 3.0'
+gem 'will_paginate-bootstrap'
 
 group :development, :test do 
 	gem 'sqlite3'
