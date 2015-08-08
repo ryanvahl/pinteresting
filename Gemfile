@@ -17,6 +17,9 @@ gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
+gem 'jquery-turbolinks'
+gem 'masonry-rails'
+
 gem 'jbuilder', '~> 2.0'
 # makes it easier to add icons and some other things to your site
 gem 'bootstrap-sass'
@@ -25,6 +28,8 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 
 gem 'devise', '~> 3.5.1'
 gem 'paperclip', github: 'thoughtbot/paperclip'
+gem 'masonry-rails', '~> 0.2.0'
+
 group :development, :test do 
 	gem 'sqlite3'
 	# Use sqlite3 agit the database for Active Record
