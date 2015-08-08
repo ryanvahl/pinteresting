@@ -18,7 +18,6 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jquery-turbolinks'
-gem 'masonry-rails'
 
 gem 'jbuilder', '~> 2.0'
 # makes it easier to add icons and some other things to your site

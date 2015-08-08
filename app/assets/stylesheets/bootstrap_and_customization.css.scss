@@ -4,6 +4,8 @@ $navbar-default-link-color: white;
 $brand-primary: #2c3e50;
 $jumbotron-bg: #ecf0f1;
 
+@import "bootstrap-sprockets";
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css");
 @import 'bootstrap';
 
 .center {
